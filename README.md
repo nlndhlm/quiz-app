@@ -1,7 +1,5 @@
 # quiz-app
 
-Quiz-app
-
 Quiz, med fire alternativer.
 Spørsmål og svaralternativer angis i quizapp.js.
 
