@@ -1,6 +1,6 @@
 # quiz-app
 
-Quiz, med fire alternativer.
+Quiz med fire alternativer.
 Spørsmål og svaralternativer angis i quizapp.js.
 
 html / css / js
