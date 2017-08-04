@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Quizapp</title>
+		<link href="quizappmain.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	</head>
+	
+	<body>
+		<h1 id="spm-tekst">Quiz</h1>
+		<br>
+		<div id="wrapper">
+			<div id="divA" onclick="svar(1)">A</div>
+			<div id="divB" onclick="svar(2)">B</div><br>
+			<div id="divC" onclick="svar(3)">C</div>
+			<div id="divD" onclick="svar(4)">D</div>
+		</div>
+		<br>
+		<div id="kontroller">
+			<div id="start-knapp" onclick="quiz()">Start</div>
+			<div id="restart-knapp" onclick="restartQuiz()">Restart</div>
+		</div>
+		<br>
+		<div id="symbol-teller">
+		</div>
+		<div id="quiz-velger">
+			<a id="quiz1" onclick="velgQuiz(addisjon1)">Nivå 1</a>
+			<a id="quiz2" onclick="velgQuiz(addisjon2)">Nivå 2</a>
+			<a id="quiz3" onclick="velgQuiz(addisjon3)">Nivå 3</a>
+			<a id="quiz4" onclick="velgQuiz(addisjon4)">Nivå 4</a>
+		</div>
+	</body>
+	<script src="quizapp.js"></script>
+</html>

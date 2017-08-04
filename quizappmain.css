@@ -1,0 +1,200 @@
+body {
+	font-family: roboto slab, arial, verdana, sans-serif;
+}
+
+#spm-tekst {
+	margin: auto;
+	text-align: center;
+	font-size: 5em;
+}
+
+#wrapper {
+	text-align: center;
+	/*background-image: url(imgs/kryss.png);*/
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#divA, #divB, #divC, #divD {
+	margin: auto;
+	margin-top: 15px;
+	margin-left: 5px;
+	margin-right: 5px;
+	display: inline-block;
+	text-align: center;
+	font-size: 3em;
+	background-color: #ffcc00;
+	width: 180px;
+	height: 180px;
+	line-height: 180px;
+	border-radius: 10px;
+}
+
+#score {
+	margin: auto;
+}
+
+#kontroller {
+	text-align: center;
+}
+
+#start-knapp {
+	margin: left;
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	background-color: lightgreen;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#restart-knapp {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	background-color: lightgreen;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+#symbol-teller {
+	margin: auto;
+	text-align: center;
+	height: 40px;
+	width: 95%;
+}
+
+#symbol-teller img {
+	width: 40px;
+}
+
+.stjerneImg, .kryssImg {
+	display: inline-block;
+}
+
+#quiz-velger {
+	margin-top: 25px;
+	text-align: center;
+}
+
+#quiz-velger a {
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#quiz1 {
+	background-color: green;
+}
+
+#quiz2 {
+	background-color: yellow;
+}
+
+#quiz3 {
+	background-color: orange;
+}
+
+#quiz4 {
+	background-color: red;
+}
+
+#divA:hover, #divB:hover, #divC:hover, #divD:hover, #start-knapp:hover, #restart-knapp:hover, #quiz-velger a:hover {
+	cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width: 1200px) {
+
+#divA, #divB, #divC, #divD {
+	margin: auto;
+	margin-top: 5px;
+	margin-left: 0;
+	margin-right: 0;
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+	width: 180px;
+	height: 180px;
+	line-height: 180px;
+}
+	
+#start-knapp {
+	margin: left;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+}
+
+#restart-knapp {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+}
+
+#symbol-teller img{
+	margin: auto;
+	text-align: center;
+	width: 50px;
+	
+}
+	
+}
+
+
+@media screen and (max-width: 700px) {
+	
+#spm-tekst {
+	margin: auto;
+	text-align: center;
+	font-size: 4em;
+}
+	
+#divA, #divB, #divC, #divD {
+	margin: auto;
+	margin-top: 5px;
+	margin-left: 0;
+	margin-right: 0;
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+	width: 140px;
+	height: 140px;
+	line-height: 140px;
+}
+	
+#start-knapp {
+	margin: left;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+}
+
+#restart-knapp {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	padding: 5px;
+}
+
+#symbol-teller img{
+	margin: auto;
+	text-align: center;
+	width: 30px;
+	
+}
+	
+#quiz-velger {
+	margin-top: 10px;
+	text-align: center;
+}
+	
+}
